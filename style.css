@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: radial-gradient(#f593a3, #a3f2d2, rgb(88, 231, 88), #0ff);
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 4px 8px;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cart {
+  height: fit-content;
+  max-width: 300px;
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid #000;
+  backdrop-filter: blur(40px);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.bioData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+span {
+  margin-top: 4px;
+  display: inline-block;
+  font-weight: 600;
+}
